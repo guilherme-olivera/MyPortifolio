@@ -16,9 +16,10 @@ import {fadeIn} from '../variants'
 
 const Banner = () => {
   return (
-    <section className='section'id='home'>
+    /*espaço entre o header */
+    <section className='min-h-[85vh] lg:min-h-[78vh] flex items-center'id='home'>
       <div className='container mx-auto'>
-        <div className='flex flex-col gap-y-8 lg:flex-row'>
+        <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:ga-x-12'>
           {/*text */}
           <div className='flex-1 text-center font-secondary lg:text-left'>
             <h1 className='text-[55px] font-bold leading-[0.8] lg:text-[110px]'>
@@ -64,7 +65,7 @@ const Banner = () => {
             </div>
           </div>
           {/*Image */}
-          <div>
+          <div className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]'>
             <img src={LogoAP} alt=''height="80" width="650" />
           </div>
         </div>
