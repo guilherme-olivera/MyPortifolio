@@ -1,6 +1,6 @@
 import React from 'react';
 //images
-import Logo from '../assets/logo.svg';
+import Logo from '../assets/euAvatar.png';
 
 
 
@@ -11,7 +11,8 @@ const Header = () => {
       <div className='flex justify-between items-center'>      
         {/*logo*/}
         <a href='#'>
-        <img src={Logo} alt='80px'/>
+          {/*tamanho da imagem superior*/}
+        <img src={Logo} alt='' height="20" width="100" />
         </a>
         {/*Button*/}
         <button className='btn btn-sm'>Entre em Contato</button>

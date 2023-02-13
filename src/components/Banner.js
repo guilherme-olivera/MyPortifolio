@@ -1,6 +1,7 @@
 import React from 'react';
 //images
 import MyAvatar from '../assets/euAvatar.png';
+import LogoAP from '../assets/Gaming-bro.svg'
 //icons
 import {FaGithub, FaYoutube, FaDribbble} from 'react-icons/fa'
 //type animation
@@ -21,7 +22,7 @@ const Banner = () => {
           {/*text */}
           <div>
             <h1>
-              GUI <span>OLIVEIRA</span>
+              GUILHERME <span>OLIVEIRA</span>
             </h1>
             <div>
               <span>I am a</span>
@@ -37,7 +38,7 @@ const Banner = () => {
           </div>
           {/*Image */}
           <div>
-            <img src={MyAvatar} alt=''/>
+            <img src={LogoAP} alt=''/>
           </div>
         </div>
       </div>
